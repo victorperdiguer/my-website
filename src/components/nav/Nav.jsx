@@ -15,7 +15,7 @@ const Nav = (props) => {
     <nav>
       <a href="#" onClick={handleActive} className={activeNav==='#' ? 'active' : ''}><AiOutlineHome/></a>
       <a href="#about" onClick={handleActive} className={activeNav==='#about' ? 'active' : ''}><AiOutlineUser/></a>
-      <a href="#experience" onClick={handleActive} className={activeNav==='#experience' ? 'active' : ''}><AiOutlineProfile/></a>
+      <a href="#skills" onClick={handleActive} className={activeNav==='#skills' ? 'active' : ''}><AiOutlineProfile/></a>
       <a href="#contact" onClick={handleActive} className={activeNav==='#contact' ? 'active' : ''}><AiOutlineMessage/></a>
     </nav>
   )
