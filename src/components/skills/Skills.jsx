@@ -76,8 +76,8 @@ const Skills = (props) => {
               <SiBootstrap className="skills__details-icon"/>
               <div>
                 <h4>Bootstrap</h4>
-              </div>{" "}
-              <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
 
             <article className="skills__details">
@@ -136,7 +136,7 @@ const Skills = (props) => {
             <article className="skills__details">
               <SiElastic className="skills__details-icon"/>
               <div>
-                <h4>Elastic Search</h4>
+                <h4>Elastic</h4>
                 <small className="text-light">Basics</small>
               </div>
             </article>

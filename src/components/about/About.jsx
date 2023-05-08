@@ -43,8 +43,11 @@ const About = (props) => {
               ]}
             />
           </div>
-          <p>I'm Victor, an Industrial Engineer with a passion for software development. I have plenty of experience working in software & IT, from big consulting firms such as NTT Data to rising start-ups like Vonzu, with roles ranging from Developer to Project Manager & Product Owner.</p>
-          <p>I'm also a freelance web developer, taking on a multitude of projects and contracts both individually and as part of larger teams.</p>
+          <p>I'm Victor, an Industrial Engineer with a passion for software development. I have plenty of experience working in software & IT, from big consulting firms such as NTT Data to rising start-ups like Vonzu, with roles ranging from Developer to Project Manager & Product Owner.
+          <br />
+          <br />
+          I'm also a freelance web developer, taking on a multitude of projects and contracts both individually and as part of larger teams.
+          </p>
 
           <a href="#contact" className="btn btn-primary">Let's talk</a>
 

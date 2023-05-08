@@ -4,6 +4,10 @@
   gap: 15%
 }
 
+#about {
+  margin-top:3rem;
+}
+
 .about__me {
   width: 100%;
   aspect-ratio:1/1;
@@ -65,7 +69,13 @@
   color: var(--color-light);
 }
 
+.about__content {
+  text-align: center;
+}
+
 .about__content p {
+  text-align: justify;
+  font-size:0.9rem;
   margin: 2rem 0 2.6rem;
   color:var(--color-light);
 }
