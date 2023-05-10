@@ -89,17 +89,17 @@ const Skills = (props) => {
             </article>
 
             <article className="skills__details">
-              <SiAngular className="skills__details-icon"/>
+              <SiReact className="skills__details-icon"/>
               <div>
-                <h4>Angular</h4>
-                <small className="text-light">Basics</small>
+                <h4>React</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="skills__details">
               <SiReact className="skills__details-icon"/>
               <div>
-                <h4>React</h4>
+                <h4>React Native</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
