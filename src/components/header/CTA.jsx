@@ -5,7 +5,7 @@ const CTA = (props) => {
   return (
     <div className="cta">
       <a href={cv} download className="btn">Download CV</a>
-      <a htef="#contact" className="btn btn-primary">Let's talk!</a>
+      <a href="#contact" className="btn btn-primary">Let's talk!</a>
     </div>
   )
 };
