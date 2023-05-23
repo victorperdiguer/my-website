@@ -1,7 +1,7 @@
 import React from "react";
 import './About.css';
 import AboutCard from "./AboutCard";
-import profilepicture from '../../assets/profilepicture.jpg';
+import profilepicture2 from '../../assets/profilepicture-2.jpg';
 import {FaAward, FaUsers, FaFolderOpen} from 'react-icons/fa';
 
 const About = (props) => {
@@ -13,7 +13,7 @@ const About = (props) => {
 
         <div className="about__me">
           <div className="about__me-image">
-            <img src={profilepicture} alt="me" />
+            <img src={profilepicture2} alt="me" />
           </div>
         </div>
 

@@ -2,7 +2,7 @@ import React from "react"
 import './Header.css';
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-import profilepicture from '../../assets/profilepicture.jpg'
+import profilepicturenobg from '../../assets/profilepicturenobg.png'
 
 const Header = (props) => {
   return (
@@ -14,7 +14,7 @@ const Header = (props) => {
         <CTA/>
         <HeaderSocials/>
         <div className="profile-picture">
-          <img src={profilepicture} alt="me" />
+          <img src={profilepicturenobg} alt="me" />
         </div>
         <a href="#contact" className="scroll__down">Scroll Down</a>
       </div>
