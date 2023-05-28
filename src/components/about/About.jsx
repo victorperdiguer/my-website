@@ -24,22 +24,24 @@ const About = (props) => {
               title="Experience"
               subtitle={[
                 "1+ Years Full Stack Developer",
-                "3+ Years Project Management"
+                "3+ Years Product Management"
               ]}
             />
             <AboutCard
               Icon={FaUsers}
               title="Clients"
               subtitle={[
-                "+20 Worldwide"
+                "+20 Projects",
+                "+7 Countries"
               ]}
             />
             <AboutCard
               Icon={FaFolderOpen}
               title="Projects"
               subtitle={[
-                  "+15 Full Stack Projects",
-                  "5 Consulting Projects"
+                  "Full Stack Developer",
+                  "Hands-on Consultant",
+                  "Product Design & Management"
               ]}
             />
           </div>
