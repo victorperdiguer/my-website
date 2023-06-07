@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/victorperdiguer/my-website/static/css/main.378d9dc2.css",
+    "main.js": "/victorperdiguer/my-website/static/js/main.a4347687.js",
+    "static/media/profilepicture-2.jpg": "/victorperdiguer/my-website/static/media/profilepicture-2.d21d9161a04e515711c7.jpg",
+    "static/media/cv.pdf": "/victorperdiguer/my-website/static/media/cv.50b08b8beecdf25ba13c.pdf",
+    "static/media/profilepicturenobg.png": "/victorperdiguer/my-website/static/media/profilepicturenobg.b0d93c9fc5dbd87df7a0.png",
+    "static/media/testimonials-ale-pfp.jpg": "/victorperdiguer/my-website/static/media/testimonials-ale-pfp.577d1abf72a7564023ad.jpg",
+    "static/media/testimonials-guille-pfp.jpg": "/victorperdiguer/my-website/static/media/testimonials-guille-pfp.a4e3edd6f6d258e2d248.jpg",
+    "static/media/testimonials-nacho-pfp.jpg": "/victorperdiguer/my-website/static/media/testimonials-nacho-pfp.125125ebca5e71c0bccb.jpg",
+    "index.html": "/victorperdiguer/my-website/index.html",
+    "main.378d9dc2.css.map": "/victorperdiguer/my-website/static/css/main.378d9dc2.css.map",
+    "main.a4347687.js.map": "/victorperdiguer/my-website/static/js/main.a4347687.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.378d9dc2.css",
+    "static/js/main.a4347687.js"
+  ]
+}
