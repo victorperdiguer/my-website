@@ -45,7 +45,7 @@ const Contact = (props) => {
             title="LinkedIn"
             subtitle="Stay in touch"
             cta="Let's link up"
-            action="www.linkedin.com/in/victorperdiguer"
+            action="https://www.linkedin.com/in/victorperdiguer/"
           />
         </div>
 
