@@ -23,8 +23,8 @@ const About = (props) => {
               Icon={FaAward}
               title="Experience"
               subtitle={[
-                "1+ Years Full Stack Developer",
-                "3+ Years Product Management"
+                "2+ Years Full Stack Developer",
+                "4+ Years Product Management"
               ]}
             />
             <AboutCard
@@ -45,7 +45,7 @@ const About = (props) => {
               ]}
             />
           </div>
-          <p>I'm Victor, an Industrial Engineer with a passion for software development. I have plenty of experience working in software & IT, from big consulting firms such as NTT Data to rising start-ups like Vonzu, with roles ranging from Developer to Project Manager & Product Owner.
+          <p>I'm Victor, an Industrial Engineer with a passion for software development. I have plenty of experience working in software & IT, from big consulting firms such as NTT Data to rising start-ups like Vonzu, with roles ranging from Developer to Project Manager & Product Manager.
           <br />
           <br />
           I'm also a freelance web developer, taking on a multitude of projects and contracts both individually and as part of larger teams.

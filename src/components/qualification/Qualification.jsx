@@ -143,7 +143,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">NTT Data</span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2021
+                  April 2021 - December 2021
                 </div>
               </div>
               <div>
@@ -159,20 +159,20 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Project Manager</h3>
-                <span className="qualification__subtitle">Vonzu Tech</span>
+                <span className="qualification__subtitle">Vonzu Tech (B2B SaaS)</span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2021 - 2023
+                  December 2021 - April 2023
                 </div>
               </div>
             </div>
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Product Owner</h3>
-                <span className="qualification__subtitle">Vonzu Tech</span>
+                <span className="qualification__subtitle">Vonzu Tech (B2B SaaS)</span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2023 - Present
+                  April 2023 - December 2023
                 </div>
               </div>
               <div>
@@ -194,6 +194,37 @@ const Qualification = () => {
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
                   2022 - Present
+                </div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">AI Product Owner</h3>
+                <span className="qualification__subtitle">Omnios AI (B2B SaaS)</span>
+                <div className="qualification__calendar">
+                  <HiOutlineCalendar className="qualification__calendar-icon" />
+                  December 2023 - March 2024
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Product Manager</h3>
+                <span className="qualification__subtitle">
+                  Shiji Group (B2B SaaS)
+                </span>
+                <div className="qualification__calendar">
+                  <HiOutlineCalendar className="qualification__calendar-icon" />
+                  March 2024 - Present
                 </div>
               </div>
             </div>
