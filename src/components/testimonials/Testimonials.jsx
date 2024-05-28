@@ -23,9 +23,10 @@ const Testimonials = (props) => {
       >
         {data.map((testimonial, index) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide
+            key={testimonial.name+"-"+index+"-slide"}>
               <TestimonialCard
-              key={index}
+              key={testimonial.name+"-"+index+"-card"}
               picture={testimonial.picture}
               link={testimonial.link}
               name={testimonial.name}

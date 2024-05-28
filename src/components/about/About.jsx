@@ -1,7 +1,7 @@
 import React from "react";
 import './About.css';
 import AboutCard from "./AboutCard";
-import profilepicture2 from '../../assets/profilepicture-2.jpg';
+import profilepicture2 from '../../assets/profilepicture-2.png';
 import {FaAward, FaUsers, FaFolderOpen} from 'react-icons/fa';
 
 const About = (props) => {

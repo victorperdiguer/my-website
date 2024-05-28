@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./Qualification.css";
-import {
-  HiOutlineAcademicCap,
-  HiOutlineBriefcase,
-  HiOutlineCalendar,
-} from "react-icons/hi";
+import { HiOutlineAcademicCap, HiOutlineBriefcase } from "react-icons/hi";
+import QualificationCard from "./QualificationCard";
+import { experienceList } from "./experience";
+import { educationList } from "./education";
 
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -50,11 +49,10 @@ const Qualification = () => {
           </div>
         </div>
       </div>
+
       <div className="qualification__container container">
         <div className="qualification__sections">
-
           {/* Education */}
-
           <div
             className={
               toggleState === 1
@@ -62,74 +60,18 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Industrial Engineering</h3>
-                <span className="qualification__subtitle">
-                  Barcelona Tech
-                </span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2015 - 2021
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Business Management</h3>
-                <span className="qualification__subtitle">
-                  European School of Prague
-                </span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2017
-                </div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Business Strategy</h3>
-                <span className="qualification__subtitle">
-                  London School of Economics
-                </span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2018
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">Ironhack</span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2022 - 2023
-                </div>
-              </div>
-            </div>
+            {educationList.slice().reverse().map((education, index) => (
+              <QualificationCard
+                key={index}
+                title={education.title}
+                subtitle={education.subtitle}
+                dates={education.dates}
+                position={index}
+              />
+            ))}
           </div>
 
           {/* Experience */}
-
           <div
             className={
               toggleState === 2
@@ -137,97 +79,15 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Solutions Analyst</h3>
-                <span className="qualification__subtitle">NTT Data</span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  April 2021 - December 2021
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Project Manager</h3>
-                <span className="qualification__subtitle">Vonzu Tech (B2B SaaS)</span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  December 2021 - April 2023
-                </div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Product Owner</h3>
-                <span className="qualification__subtitle">Vonzu Tech (B2B SaaS)</span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  April 2023 - December 2023
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Full Stack Developer</h3>
-                <span className="qualification__subtitle">
-                  Freelance
-                </span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2022 - Present
-                </div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">AI Product Owner</h3>
-                <span className="qualification__subtitle">Omnios AI (B2B SaaS)</span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  December 2023 - March 2024
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Product Manager</h3>
-                <span className="qualification__subtitle">
-                  Shiji Group (B2B SaaS)
-                </span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  March 2024 - Present
-                </div>
-              </div>
-            </div>
+            {experienceList.slice().reverse().map((experience, index) => (
+              <QualificationCard
+                key={index}
+                title={experience.title}
+                subtitle={experience.subtitle}
+                dates={experience.dates}
+                position={index}
+              />
+            ))}
           </div>
         </div>
       </div>
