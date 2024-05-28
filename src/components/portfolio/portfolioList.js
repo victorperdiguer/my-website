@@ -8,7 +8,7 @@ import { SiTypescript } from "react-icons/si";
 
 export const portfolioList = [
   {
-    title: "Colorly (2022)",
+    title: "Colorly",
     description: "A DOM recursion game built with HTML, CSS, and JavaScript",
     image: colorly,
     demoURL: "https://victorperdiguer.github.io/colorly/",
@@ -16,7 +16,7 @@ export const portfolioList = [
     technologies: [AiFillHtml5, IoLogoCss3, IoLogoJavascript],
   },
   {
-    title: "Kolory (2024)",
+    title: "Kolory",
     description: "A multi-function NextJS color palette generator",
     image: kolory,
     demoURL: "https://kolory-phi.vercel.app/",
