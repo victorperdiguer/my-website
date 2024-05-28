@@ -18,8 +18,8 @@ const App = (props) => {
       <About/>
       <Skills/>
       <Qualification/>
-      {/* <Services/>
-      <Portfolio/> */}
+      {/* <Services/> */}
+      <Portfolio/>
       <Testimonials/>
       <Contact/>
       <Footer/>
