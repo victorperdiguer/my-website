@@ -1,12 +1,5 @@
 import React from "react"
 
-import { AiFillHtml5 } from "react-icons/ai";
-import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
-import { SiHandlebarsdotjs } from "react-icons/si";
-import { FiCode} from 'react-icons/fi';
-import { SiMongodb } from "react-icons/si";
-import { GrNode } from "react-icons/gr";
-
 const PortfolioCard = ({title, description, image, demoURL, githubURL, technologies}) => {
   return (
     <article className="portfolio__item">

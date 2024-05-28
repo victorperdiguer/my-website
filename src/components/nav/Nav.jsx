@@ -1,6 +1,6 @@
 import React from "react";
 import './Nav.css';
-import {AiOutlineHome, AiOutlineUser, AiOutlineProfile, AiOutlineMessage, AiOutlineFileDone} from 'react-icons/ai';
+import {AiOutlineHome, AiOutlineUser, AiOutlineProfile, AiOutlineMessage, AiOutlineFileDone, AiOutlineAppstore} from 'react-icons/ai';
 import { useState } from "react";
 
 
@@ -17,6 +17,7 @@ const Nav = (props) => {
       <a href="#about" onClick={handleActive} className={activeNav==='#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href="#skills" onClick={handleActive} className={activeNav==='#skills' ? 'active' : ''}><AiOutlineProfile/></a>
       <a href="#qualification" onClick={handleActive} className={activeNav==='#qualification' ? 'active' : ''}><AiOutlineFileDone/></a>
+        <a href="#portfolio" onClick={handleActive} className={activeNav==='#portfolio' ? 'active' : ''}><AiOutlineAppstore/></a>
       <a href="#contact" onClick={handleActive} className={activeNav==='#contact' ? 'active' : ''}><AiOutlineMessage/></a>
     </nav>
   )

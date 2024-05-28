@@ -2,7 +2,7 @@ import React from "react";
 import './Testimonials.css';
 import TestimonialCard from "./TestimonialCard";
 import data from "./data";
-import { Navigation, Pagination, A11y } from 'swiper';
+import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';

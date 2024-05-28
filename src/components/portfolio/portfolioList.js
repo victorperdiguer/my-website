@@ -3,7 +3,6 @@ import kolory from "../../assets/kolory.png";
 import { AiFillHtml5 } from "react-icons/ai";
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 import { SiMongodb } from "react-icons/si";
-import { GrNode } from "react-icons/gr";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiTypescript } from "react-icons/si";
 
