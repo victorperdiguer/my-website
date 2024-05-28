@@ -15,7 +15,11 @@ const PortfolioCard = ({title, description, image, demoURL, githubURL, technolog
         <div className="portfolio__item-info">
           <p>{description}</p>
           <p>
-            <AiFillHtml5 /> <IoLogoCss3 /> <IoLogoJavascript />
+            {technologies.map((technology, index) => (
+              <span key={technology + "-" + index}>
+                {technology()}&nbsp;
+              </span>
+            ))}
           </p>
         </div>
       </div>
